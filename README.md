@@ -23,8 +23,31 @@ Python	Core programming language
 ✅ Key Features:
 Fully offline/local LLM execution (via Ollama)
 
-Simple drag-and-drop file upload for additional documents
 
-Real-time question answering with constitutional grounding
+🚀 How to Run This Project Locally
 
-Custom vectorstore creation and updating
+📋 Prerequisites
+
+Make sure you have the following installed:
+
+Python 3.11+
+Git
+Ollama
+pip
+
+🛠️ Setup Instructions
+Clone the repository:
+git clone https://github.com/Kuvernoori/Ollama.git
+cd Ollama
+Install dependencies:
+
+pip install -r requirements.txt
+Download the Ollama model (e.g., llama3):
+
+ollama pull llama3
+❗ Make sure Ollama is running in the background.
+
+▶️ Run the application
+python -m streamlit run main.py
+Open your browser and go to http://localhost:8501
+
