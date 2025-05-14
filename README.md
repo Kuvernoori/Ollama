@@ -37,8 +37,6 @@ Make sure you have the following installed:
 
 ### 🛠️ Setup Instructions
 
-1. **Clone the repository:**
-
 ```bash
 git clone https://github.com/Kuvernoori/Ollama.git
 cd Ollama
@@ -46,4 +44,4 @@ pip install -r requirements.txt
 ollama pull llama3
 python -m streamlit run main.py
 ```
-
+Then open your browser and go to: http://localhost:8501
